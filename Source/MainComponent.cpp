@@ -108,6 +108,7 @@ void MainComponent::releaseResources()
 void MainComponent::paint (Graphics& g)
 {
     ignoreUnused(g);
+    g.fillAll(Colours::black);
 }
 
 void MainComponent::paintOverChildren(Graphics& g){

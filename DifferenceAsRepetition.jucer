@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="DifferenceAsRepetition" projectType="guiapp" jucerVersion="5.3.1">
+  <MAINGROUP id="WdQpsV" name="DifferenceAsRepetition">
+    <GROUP id="{5417FD44-A2F9-50BD-C237-8A98B8A071E7}" name="Source">
+      <GROUP id="{CB830B28-DDE7-A324-1CDF-9D0DB54B0F14}" name="Gui">
+        <FILE id="MmepS0" name="GuiFooter.cpp" compile="1" resource="0" file="Source/GuiFooter.cpp"/>
+        <FILE id="XBIVAs" name="GuiFooter.h" compile="0" resource="0" file="Source/GuiFooter.h"/>
+        <FILE id="EhvRDC" name="GuiSequencer.cpp" compile="1" resource="0"
+              file="Source/GuiSequencer.cpp"/>
+        <FILE id="JJaRGw" name="GuiSequencer.h" compile="0" resource="0" file="Source/GuiSequencer.h"/>
+        <FILE id="Ihr1Cy" name="GuiEnvTab.cpp" compile="1" resource="0" file="Source/GuiEnvTab.cpp"/>
+        <FILE id="EJiNGz" name="GuiEnvTab.h" compile="0" resource="0" file="Source/GuiEnvTab.h"/>
+        <FILE id="YdoYMh" name="GuiMiscTab.cpp" compile="1" resource="0" file="Source/GuiMiscTab.cpp"/>
+        <FILE id="vAs9IY" name="GuiMiscTab.h" compile="0" resource="0" file="Source/GuiMiscTab.h"/>
+        <FILE id="z5IX9d" name="GuiOscTab.cpp" compile="1" resource="0" file="Source/GuiOscTab.cpp"/>
+        <FILE id="MvAHfI" name="GuiOscTab.h" compile="0" resource="0" file="Source/GuiOscTab.h"/>
+        <FILE id="hCzFae" name="GuiTabs.cpp" compile="1" resource="0" file="Source/GuiTabs.cpp"/>
+        <FILE id="Sj20Nm" name="GuiTabs.h" compile="0" resource="0" file="Source/GuiTabs.h"/>
+        <FILE id="IUndkl" name="LookAndFeels.h" compile="0" resource="0" file="Source/LookAndFeels.h"/>
+      </GROUP>
+      <GROUP id="{E6113D27-461A-033E-2893-3B0A3B7ECE07}" name="Synth">
+        <FILE id="PNC1lq" name="SynthAudioSource.h" compile="0" resource="0"
+              file="Source/SynthAudioSource.h"/>
+        <FILE id="ct4261" name="Synth.cpp" compile="1" resource="0" file="Source/Synth.cpp"/>
+        <FILE id="z15LPN" name="Synth.h" compile="0" resource="0" file="Source/Synth.h"/>
+        <FILE id="T3ZlO4" name="SynthEnvelopeGenerator.cpp" compile="1" resource="0"
+              file="Source/SynthEnvelopeGenerator.cpp"/>
+        <FILE id="nhiHQ9" name="SynthEnvelopeGenerator.h" compile="0" resource="0"
+              file="Source/SynthEnvelopeGenerator.h"/>
+        <FILE id="hdatmF" name="SynthOscillator.cpp" compile="1" resource="0"
+              file="Source/SynthOscillator.cpp"/>
+        <FILE id="lWU2Qo" name="SynthOscillator.h" compile="0" resource="0"
+              file="Source/SynthOscillator.h"/>
+        <FILE id="T666Qv" name="SynthParameters.cpp" compile="1" resource="0"
+              file="Source/SynthParameters.cpp"/>
+        <FILE id="CzVpVs" name="SynthParameters.h" compile="0" resource="0"
+              file="Source/SynthParameters.h"/>
+        <FILE id="llYcm1" name="SynthSound.cpp" compile="1" resource="0" file="Source/SynthSound.cpp"/>
+        <FILE id="AWVW4U" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+        <FILE id="Xjokn0" name="SynthVoice.cpp" compile="1" resource="0" file="Source/SynthVoice.cpp"/>
+        <FILE id="hv32kO" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+        <FILE id="fwfD5P" name="SynthWaveform.cpp" compile="1" resource="0"
+              file="Source/SynthWaveform.cpp"/>
+        <FILE id="lR4tnZ" name="SynthWaveform.h" compile="0" resource="0" file="Source/SynthWaveform.h"/>
+      </GROUP>
+      <FILE id="pljHij" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="hD8xKJ" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="ZJpD8c" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="wZczJA" name="RecordingUtil.h" compile="0" resource="0" file="Source/RecordingUtil.h"/>
+      <FILE id="dM6xVL" name="AudioLiveScrollingDisplay.h" compile="0" resource="0"
+            file="Source/AudioLiveScrollingDisplay.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
